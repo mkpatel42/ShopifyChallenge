@@ -1,0 +1,19 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# emacs temp files
+*~
+\#*
+
+# build directory
+build
+.gradle
+.idea
+*.iml
+local.properties
+gradle
+gradlew

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00b4ff</color>
+    <color name="colorPrimaryDark">#04356d</color>
+    <color name="colorAccent">#04356d</color>
+    <color name="gestureColor">#7E57C2</color>
+    <color name="foundColor">#ffddffdd</color>
+    <color name="alreadyColor">#ff888888</color>
+    <color name="cellBorderColor">#ffb1bcbe</color>
+    <color name="selectionBGColor">#ff333355</color>
+
+</resources>

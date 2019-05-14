@@ -1,0 +1,147 @@
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:orientation="vertical"
+    a:padding="16dp"
+    tools:context=".WordSearch"
+    a:background="@android:color/white">
+
+    <net.falutin.meet.CellGridLayout
+        a:layout_width="match_parent"
+        a:layout_height="300dp"
+        a:id="@+id/grid">
+        <!-- Note: must have NxN text views as first children -->
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile" />
+        <TextView style="@style/Tile"/>
+
+        <view
+            a:layout_width="match_parent"
+            a:layout_height="300dp"
+            class="net.falutin.meet.CanvasView"
+            a:id="@+id/canvas"
+            a:background="#00000000"
+            a:gestureStrokeWidth="5"
+            a:gestureColor="@android:color/white"
+            />
+
+    </net.falutin.meet.CellGridLayout>
+
+    <ScrollView
+        a:id="@+id/scroller"
+        a:layout_width="match_parent"
+        a:layout_height="0dp"
+        a:layout_weight="1"
+        a:scrollbars="vertical"
+        a:fillViewport="true">
+      <TextView
+          a:id="@+id/display"
+          a:layout_width="match_parent"
+          a:layout_height="wrap_content"
+          a:textColor="#000000"/>
+    </ScrollView>
+    <TextView
+        a:id="@+id/progress"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:textColor="#000000" />
+</LinearLayout>
